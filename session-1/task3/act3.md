@@ -27,10 +27,12 @@ Warnings are generally are symptom of some issue with your code and should be de
 even if the code would run anyway.
 
 Which of these cases compile? Why?
+only case 4 compiled because the others had errors in them
 
 **The 4th case**
 
 What is wrong with this case?
+it is not indented
 
 **Gradescope autograding of C code**
 
@@ -43,3 +45,6 @@ Test your code "hello1.c" with the "Classwork 2.3 - practice test" submission au
 
 In each case look at the Gradescope Autograder output
 - This will be typical for tasks submitted this semester
+
+done! 
+when there were errors, it pointed out what the error was
