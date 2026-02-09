@@ -84,3 +84,5 @@ Look at the size of the files. Hint: you can use
   `ls -al` 
   
 in a folder to view details about the file.
+
+In the c file, the storage is 122 bytes, in the py file the storage is 282 bytes
