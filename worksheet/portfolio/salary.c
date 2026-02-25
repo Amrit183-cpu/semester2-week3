@@ -34,10 +34,11 @@
       }
     }
    
-    printf("£%.2f \n", salary);
-    printf("£%.2f \n", ni_contributions);
-    printf("£%.2f \n", taxed_amount);
-    printf("£%.2f \n", take_home_pay);
+    // Use only these print statement with appropriate formatting and variable names
+    printf("Salary £%.2f \n", salary);
+    printf("NI contribution £%.2f \n", (salary*(national_insurance/100)));
+    printf("Tax contribution £%.2f \n", (taxed_amount));
+    printf("Take home salary £%.2f \n", take_home_pay); 
 
     return 0;
  }
