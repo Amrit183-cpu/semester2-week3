@@ -10,12 +10,12 @@
  int main( void ) {
 
     // define and initialise variables for the problem data 
-    double salary = 36250; //set salary to 36250
-    double national_insurance = 8; //set NI to 8
-    double tax_rate = 15; //set tax to 15
-    double taxed_amount = 0; //var to store amount that is taxed
-    double take_home_pay = 0; //var to store final pay
-    double ni_contributions = 0; //calc ni amount
+    float salary = 36250.0; //set salary to 36250
+    float national_insurance = 8.0; //set NI to 8
+    float tax_rate = 15.0; //set tax to 15
+    float taxed_amount = 0.0; //var to store amount that is taxed
+    float take_home_pay = 0.0; //var to store final pay
+    float ni_contributions = 0.0; //calc ni amount
 
     if (salary>=14000.0 && salary<=40000.0) //check salary limits
     {
@@ -35,10 +35,10 @@
     }
    
     // Use only these print statement with appropriate formatting and variable names
-    printf("Salary £%.2f \n", salary);
-    printf("NI contribution £%.2f \n", (salary*(national_insurance/100)));
-    printf("Tax contribution £%.2f \n", (taxed_amount));
-    printf("Take home salary £%.2f \n", take_home_pay); 
+    printf("Salary £%.2f\n", salary);
+    printf("NI contribution £%.2f\n", (salary*(national_insurance/100)));
+    printf("Tax contribution £%.2f\n", (taxed_amount));
+    printf("Take home salary £%.2f\n", take_home_pay); 
 
     return 0;
  }
